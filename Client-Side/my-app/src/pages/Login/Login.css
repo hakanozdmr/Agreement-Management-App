@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cardBody {
+    background-image: url("./background.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    font-family: "Raleway", sans-serif;
+}
+
+
+.cardInput:focus {
+    display: inline-block;
+    box-shadow: 0 0 0 0.2rem #dadada;
+    backdrop-filter: blur(12rem);
+    border-radius: 2rem;
+}
+
+.cardInput::placeholder {
+    color: #E8F9FD;
+    font-weight: 100;
+    font-size: 1rem;
+}
